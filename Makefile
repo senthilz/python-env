@@ -42,6 +42,9 @@ freeze:
 check:
 	uv pip check
 
+list:
+	uv pip list
+
 # -------- UX --------
 help:
 	@echo "Available targets:"
